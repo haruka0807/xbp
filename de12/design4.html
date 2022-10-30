@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="jp">
+  <head>
+    <title>デザイン演習第4回</title>
+  </head>
+<body><font size ="7">ゲーム作成</font><br>
+    このグループでは、0から数字をランダムで足していき、決めた数字を超えてしまったら失敗という「運ゲー」を作ることにしました。<br>
+    ランダムで出てくる数字の範囲と超えてはいけない数字は各自で決めました。数字を超えてしまう前に計算をやめたい場合はやめることが出来て、最後の合計をハイスコアとして出すことにしました。<br>
+<br>
+ <pre><code>
+    import random
+    from re import I
+    from tkinter import Y
+    
+    counter=0
+    
+    print("99を超えないように限界まで挑戦してください。")
+    print("現在の数字は0です。")
+    while counter<=39:
+        a = random.randint(1,7)
+        
+        quesution=input("まだ足しますか。")
+        if quesution=="yes":
+            counter=counter+a
+            print("現在の合計は",counter,"です。")
+        elif quesution=="no":
+            print("ハイスコアは",counter,"です。")
+            break
+        elif counter==39:
+            print("おめでとうございます。39ぴったりです。")
+            break
+    
+    else:
+        print("39をこえました。失敗です。")
+        
+ </code></pre>
+
+ <iframe width="460" height="215" src="https://www.youtube.com/embed/sCZ8MOlrXks" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</body> 
+ 
