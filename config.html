@@ -1,0 +1,365 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "//www.w3.org/TR/html4/loose.dtd">
+<html xmlns:og="http://ogp.me/ns#" xmlns:mixi="http://mixi-platform.com/ns#" lang="ja">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>歌詞検索サービス　歌ネット</title>
+	<meta name="description" content="歌詞情報－歌ネット">
+	<meta name="keywords" content="歌詞情報,歌ネット">
+
+	<meta name="viewport" content="width=1400, user-scalable=yes" />
+	<link rel="Bookmark" href="https://www.uta-net.com/" title="歌詞検索の歌ネット">
+	<meta http-equiv="Content-Style-Type" content="text/css">
+	<meta http-equiv="content-script-type" content="text/javascript">
+	<link rel="stylesheet" href="/libs/css/import.css?20220823" type="text/css">
+	
+	
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KKM6Z39');</script>
+<!-- End Google Tag Manager -->
+
+	
+	<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+	<script type="text/javascript" src="/libs/js/common.js?20220623"></script>
+	<script type="text/javascript" src="/libs/js/navimenu.js"></script>
+	<script type="text/javascript" src="/libs/js/movie.js?20190910"></script>
+	<script src='/libs/js/bootstrap/compressed/bootstrap.bundle.js'></script>
+	<!-- flashbanner表示用ライブラリ -->
+	<script type="text/javascript" src="/libs/js/swfwrite.js"></script>
+	<!-- 動画バナー用スタイル追加 2013.10.16 -->
+	<script type="text/javascript" src="/libs/js/thickbox_usr.js" charset="utf-8"></script>
+	<link rel="stylesheet" href="/libs/css/thickbox.css?20150315" type="text/css">
+	<link rel="stylesheet" href="/libs/css/headerfooter_fixed.css?20220906" type="text/css">
+<!-- https://support.google.com/dfp_premium/answer/4578089?hl=ja -->
+<script async='async' src='https://www.googletagservices.com/tag/js/gpt.js'></script>
+
+<script type="text/javascript" src="//ads.rubiconproject.com/prebid/18866_v2_prod.js"></script>
+<script>
+	var googletag = googletag || {};
+	googletag.cmd = googletag.cmd || [];
+
+    var headerBiddingSlots = [];
+    var nonHeaderBiddingSlots = [];
+
+    var pbjs = pbjs || {};
+    pbjs.que = pbjs.que || [];
+	
+var slotHeader;
+
+var slotFooter;
+	
+var slotSide2;
+var slotSide3;
+
+
+googletag.cmd.push(function() {
+    slotHeader = googletag.defineSlot('/9168657/PC_その他_ヘッダー_728x90', [728, 90], 'div-gpt-ad-1506842244162-0').addService(googletag.pubads());
+    slotRect1 = googletag.defineSlot('/9168657/PC_その他_第1レクタングル_300x250', [[300, 250], [160, 600], [300, 600]], 'div-gpt-ad-1506842244162-1').addService(googletag.pubads());
+    slotSide2 = googletag.defineSlot('/9168657/PC_その他_第2バナー_300x150', [300, 150], 'div-gpt-ad-1506842244162-2').addService(googletag.pubads());
+    slotSide3 = googletag.defineSlot('/9168657/PC_その他_第3バナー_300x100', [300, 100], 'div-gpt-ad-1506842244162-3').addService(googletag.pubads());
+    slotOther4 = googletag.defineSlot('/9168657/PC_その他_第4バナー_300x100', [300, 100], 'div-gpt-ad-1506842244162-4').addService(googletag.pubads());
+    slotFooter = googletag.defineSlot('/9168657/PC_その他_フッター_728x90', [[728, 90], [970, 250]], 'div-gpt-ad-1506842244162-6').addService(googletag.pubads());
+
+	// Prebid.jsの対象枠設定
+	headerBiddingSlots.push(slotHeader);
+	headerBiddingSlots.push(slotRect1);
+	headerBiddingSlots.push(slotFooter);
+	// HeaderBiddingの対象枠外枠の設定
+	nonHeaderBiddingSlots.push(slotSide2);
+
+
+    googletag.pubads().enableSingleRequest();
+    googletag.pubads().collapseEmptyDivs();
+    googletag.enableServices();
+	
+  });
+</script>
+<!-- Prebid.js + Amazon aspstag common beging -->
+<script type="text/javascript">
+	var isBidDone = {
+		prebid: false,
+		amazon: false
+	};
+	var commonSendAdserverRequest = function () {
+		if (!isBidDone.prebid || !isBidDone.amazon) {
+			return;
+		}
+		googletag.cmd.push(function () {
+			apstag.setDisplayBids();
+			googletag.pubads().refresh(headerBiddingSlots);
+		});
+	};
+
+    pbjs.adserverRequestSent = false;
+	function sendAdserverRequest() {
+		if (pbjs.adserverRequestSent)
+			return;
+		pbjs.adserverRequestSent = true;
+		isBidDone.prebid = true;
+		commonSendAdserverRequest();
+	}
+</script>
+<!-- Prebid.js + Amazon aspstag common end -->
+
+<!--Amazonタグ/headに入れるタグ-->
+<script>
+	!function (a9, a, p, s, t, A, g) {
+		if (a[a9])
+			return;
+		function q(c, r) {
+			a[a9]._Q.push([c, r])
+		}
+		a[a9] = {init: function () {
+				q("i", arguments)
+			}, fetchBids: function ()
+			{
+				q("f", arguments)
+			}, setDisplayBids: function () {}, _Q: []};
+		A = p.createElement(s);
+		A.async = !0;
+		A.src = t;
+		g = p.getElementsByTagName(s)[0];
+		g.parentNode.insertBefore(A, g)
+	}("apstag", window, document, "script", "//c.amazon-adsystem.com/aax2/apstag.js");
+	apstag.init({
+		pubID: '3663', adServer: 'googletag'
+	});
+	apstag.fetchBids({
+		slots: [
+			{
+				slotID: 'div-gpt-ad-1506842244162-0',
+				slotName: '9168657/PC_sonota_header728x90',
+				sizes: [[728, 90]]
+			},
+			{
+				slotID: 'div-gpt-ad-1506842244162-1',
+				slotName: '9168657/PC_sonota_rectangle1_300x250',
+				sizes: [[300, 250], [160, 600], [300, 600]]
+			},						{
+				slotID: 'div-gpt-ad-1506842244162-6',
+				slotName: '9168657/PC_sonota_footer278x90',
+				sizes: [[728, 90], [970, 250]]
+			},
+					],
+		timeout: 2e3
+	}, function (bids) {
+		// call common callback among pbjs and apstag
+		isBidDone.amazon = true;
+		commonSendAdserverRequest();
+	});
+</script>
+<!--ココまでAmazonタグ/headに入れるタグ-->
+
+<!-- Prebid.js START -->
+<script type="text/javascript">
+	var FAILSAFE_TIMEOUT = 3000;
+
+	setTimeout(function () {
+		sendAdserverRequest();
+	}, FAILSAFE_TIMEOUT);
+</script>
+<!-- Prebid.js END -->
+
+
+
+</head>
+<body>
+ 
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KKM6Z39"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+<!-- headerここから -->
+<div id="global-header">
+	<div id="pc-header" class="col-12 d-none d-lg-block p-0">
+		<div id="header-main" class="row align-items-center">
+			<div class="logo col"><h1><a href="https://www.uta-net.com/"><img src="https://www.uta-net.com/reverse/common/uta_net_logo.png?0" alt="歌詞検索サービス「歌ネット」" loading="lazy" width="194" height="40"></a></h1></div>
+			<div class="header-searchbox col">
+				<form action="https://www.uta-net.com/search/" method="get" class="searchbox">
+					<ul class="text-start searchbox-select"><li><a href="?target=art" class="active">アーティスト</a></li><li><a href="?Aselect=2">曲名</a></li><li><a href="?target=lyricist">作詞者</a></li><li><a href="?target=composer">作曲者</a></li><li><a href="?target=kashi">歌詞</a></li><li><a href="?target=tieup">タイアップ</a></li></ul>
+
+					<input type="hidden" name="target" value="art" class="input-hidden">
+					<input type="hidden" name="type" value="in" class="input-hidden">
+					<div class="input-group mb-3">
+						<input type="text" class="form-control searchkeyword" name="keyword" placeholder="アーティスト名で歌詞検索" aria-label="アーティスト名で歌詞検索" aria-describedby="basic-addon2">
+						<button class="btn btn-outline-secondary" type="submit" id="button-addon2" onclick="dataLayer.push({
+									   event: 'pc_analytics', 
+										eventCategory: 'header-search-other', eventAction: 'click',});">検索</button>
+					</div>
+				</form>
+			</div>
+			<div class="header-myutanet col pe-0"><a class="header-myutanet-regist" href="/account/register.php" onclick="dataLayer.push({event: 'pc_analytics',eventCategory: 'header-regist', eventAction: 'click',});">ユーザー登録</a><a class="header-myutanet-login" href="/account/signin.php" onclick="dataLayer.push({event: 'pc_analytics',eventCategory: 'header-login', eventAction: 'click',});">ログイン</a></div>
+		</div>
+		<div id="nav-area"><ul id="nav-one" class="nav row"><li id="menu_top" class="col ms-3"><a href="https://www.uta-net.com/">ホーム</a></li><li class="col dropdown dropdown-hover" id="menu_search"><a href="https://www.uta-net.com/name_list/" class="dropdown-toggle" data-bs-toggle="dropdown" id="dropdownMenu1" data-bs-offset="0,0">歌詞検索</a><ul class="dropdown-menu" aria-labelledby="dropdownMenu1"><li><a href="https://www.uta-net.com/name_list/">アーティスト名インデックス検索</a></li><li><a href="https://www.uta-net.com/lyricist_list/">作詞者名インデックス検索</a></li><li><a href="https://www.uta-net.com/composer_list/">作曲者名インデックス検索</a></li><li><a href="https://www.uta-net.com/arranger_list/">編曲者名インデックス検索</a></li><li><a href="https://www.uta-net.com/record_label_list/">レーベル名インデックス検索</a></li><li><a href="https://www.uta-net.com/search/all/">歌詞全文（フレーズ）検索</a></li><li><a href="https://www.uta-net.com/anime_list/">アニソン検索</a></li><li><a href="https://www.uta-net.com/user/search_index/name.html">アルバム検索</a></li><li><a href="https://www.uta-net.com/user/timemachine/index.html">タイムマシン検索</a></li></ul></li><li class="col dropdown dropdown-hover" id="menu_newsong"><a href="https://www.uta-net.com/song_info/" class="dropdown-toggle" data-bs-toggle="dropdown" id="dropdownMenu2" data-bs-offset="0,0">新曲歌詞情報</a><ul class="dropdown-menu" aria-labelledby="dropdownMenu2"><li><a href="https://www.uta-net.com/song_info/">新曲歌詞情報（総合）</a></li><li><a href="https://www.uta-net.com/user/newsong/release_top_2.html">新曲歌詞情報（演歌・歌謡曲）</a></li><li><a href="https://www.uta-net.com/contact/">リクエストフォーム</a></li></ul></li><li class="col dropdown dropdown-hover" id="menu_ranking"><a href="https://www.uta-net.com/ranking/daily/" class="dropdown-toggle" data-bs-toggle="dropdown" id="dropdownMenu3" data-bs-offset="0,0">ランキング</a><ul class="dropdown-menu" aria-labelledby="dropdownMenu3"><li><a href="https://www.uta-net.com/ranking/daily/">総合ランキング</a></li><li><a href="https://www.uta-net.com/ranking/enka_kayo_weekly/">演歌・歌謡曲ランキング</a></li><li><a href="https://www.uta-net.com/ranking/total/">歴代人気曲ランキング</a></li><li><a href="https://www.uta-net.com/ranking/attention/">注目度ランキング</a></li><li><a href="https://www.uta-net.com/ranking/favorite_weekly/">お気に入りアーティストランキング</a></li><li><a href="https://www.uta-net.com/ranking/karaoke_sogo/">カラオケランキング</a></li></ul></li><li class="col dropdown dropdown-hover" id="menu_watafure"><a href="https://www.uta-net.com/watafure/ichiran/" class="dropdown-toggle" data-bs-toggle="dropdown" id="dropdownMenu4" data-bs-offset="0,0">コトバのキモチ</a><ul class="dropdown-menu" aria-labelledby="dropdownMenu4"><li><a href="https://www.uta-net.com/watafure/new/">新規投稿フレーズ</a></li><li><a href="https://www.uta-net.com/watafure/ichiran/">コトバのキモチ</a></li><li><a href="https://www.uta-net.com/watafure/ichiran/#search_box">コトバのキモチ検索</a></li><li><a href="https://www.uta-net.com/user/watafure/watafure_ranking.php">コトバのキモチBEST10</a></li><li><a href="https://www.uta-net.com/watafure/form/">歌詞フレーズ投稿</a></li></ul></li><li class="col dropdown dropdown-hover" id="menu_timemachine"><a href="https://www.uta-net.com/user/timemachine/index.html" class="dropdown-toggle" data-bs-toggle="dropdown" id="dropdownMenu5" data-bs-offset="0,0">タイムマシン</a><ul class="dropdown-menu" aria-labelledby="dropdownMenu5"><li><a href="https://www.uta-net.com/user/timemachine/index.html">タイムマシンTOP</a></li><li><a href="https://www.uta-net.com/user/timemachine/best10/index.html">今月のスポットライト </a></li><li><a href="https://www.uta-net.com/user/jake_uta/jake_uta_top.html">歌謡界50年史1960-2000年代</a></li><li><a href="https://www.uta-net.com/user/tvdorama_song/1960.html">年代別テレビドラマ主題歌</a></li><li><a href="https://www.uta-net.com/user/record_taisyo/index.html">年代別日本レコード大賞</a></li><li><a href="https://www.uta-net.com/user/anime60_90/anime60_90.html">年代別アニメソング特集</a></li><li><a href="https://www.uta-net.com/user/kashiken/kashiken.html">年代別歌詞検定</a></li></ul></li><li class="col dropdown dropdown-hover" id="menu_otona"><a href="https://www.uta-net.com/tv_program/music/" class="dropdown-toggle" data-bs-toggle="dropdown" id="dropdownMenu6" data-bs-offset="0,0">音楽番組情報</a><ul class="dropdown-menu" aria-labelledby="dropdownMenu6"><li><a href="https://www.uta-net.com/tv_program/music/">音楽番組情報TOP</a></li><li><a href="https://www.uta-net.com/user/search_index/index.html">TVドラマ主題歌</a></li><li><a href="https://www.uta-net.com/user/search_index/anime.html">TVアニメソング</a></li><li><a href="https://www.uta-net.com/user/otona/m_station/m_station_songlist.html">MUSIC STATION放送曲目リスト</a></li><li><a href="https://www.uta-net.com/user/otona/nipon/nipon_songlist.html">新・BS日本のうた放送曲目リスト</a></li></ul></li><li id="menu_movie" class="col me-3"><a href="https://www.uta-net.com/movie/">動画プラス</a></li></ul></div>
+		<div id="nav-area2"><ul class="row"><li class="col"><a href="https://www.uta-net.com/today/">今日のうた</a></li><li class="col"><a href="https://www.uta-net.com/livereport/">ライブレポート</a></li><li class="col"><a href="https://www.uta-net.com/streaming/">ストリーミング</a></li><li class="col"><a href="https://www.uta-net.com/user/interview/index.html">インタビュー</a></li><li class="col"><a href="https://www.uta-net.com/anime/index.html">アニメ</a></li><li class="col"><a href="https://www.uta-net.com/user/close_up/index.html">特集ピックアップ</a></li><li class="col"><a href="https://www.uta-net.com/user/column/index.html">言葉の魔法</a></li><li class="col"><a href="https://www.uta-net.com/user/tatsujin/index.html">言葉の達人</a></li></ul></div>
+	</div>
+
+	<div id="sp-header" class="col-12 d-block d-lg-none p-0">
+		<div class="row justify-content-center m-0 align-items-center" style="border-bottom:1px solid #FFF;">
+			<div class="col-auto my-2 mx-1">
+				<a href="/"><img src="https://www.uta-net.com/reverse/common/uta_net_logo.png?0" loading="lazy" decoding="async" width="81" height="17" alt="歌詞検索サービス「歌ネット」" style="margin-bottom: 3px;"></a>
+			</div>
+			<h1 class="col text-center text-truncate m-0" style="font-size: 13px;font-weight: bold;color: #7C7C7C;line-height:44px;padding:0px 10px 0px 0px;">歌ネット</h1>
+			<div class="col-auto accordion p-0 m-0">
+				<div id="headerSearch" class="text-center">
+					<a style="display:block;width:44px;height:44px;" data-bs-toggle="collapse" data-bs-target="#header-search" aria-expanded="true" aria-controls="header-search"
+					   onclick="dataLayer.push({
+									   event: 'pc_analytics', 
+										eventCategory: 'header-search-icon-other', 
+										eventAction: 'click',});">
+						<img src="https://ures.jp/uta-net.com/img/sp/header_icon_search.png?20210818" loading="lazy" decoding="async" width="21" height="22" alt="検索ボックスを開く" style="margin-top:12px;">
+					</a>
+				</div>
+			</div>
+			<div class="col-auto accordion p-0 m-0">
+				<div id="headerMenu" class="text-center">
+					<a style="display:block;width:44px;height:44px;" data-bs-toggle="collapse" data-bs-target="#header-menu" aria-expanded="true" aria-controls="header-menu">
+						<img src="https://ures.jp/uta-net.com/img/sp/header_icon_menu.png" loading="lazy" decoding="async" width="27" height="19" alt="メニューを開く" style="margin-top:12px;">
+					</a>
+				</div>
+			</div>
+		</div>
+		<div id="header-search" class="col-12 collapse" aria-labelledby="headerSeachbox"><form action="https://www.uta-net.com/search/" method="get" class="searchbox"><ul class="text-start searchbox-select"><li><a href="?target=art" class="active">アーティスト</a></li><li><a href="?Aselect=2">曲名</a></li><li><a href="?target=lyricist">作詞者</a></li><li><a href="?target=composer">作曲者</a></li><li><a href="?target=kashi">歌詞</a></li><li><a href="?target=tieup">タイアップ</a></li></ul>
+
+				<div class="input-group mb-3">
+					<input type="text" class="form-control searchkeyword" name="Keyword" placeholder="アーティスト名で歌詞検索" aria-label="アーティスト名で歌詞検索" aria-describedby="basic-addon2">
+					
+					<button class="btn btn-outline-secondary" type="submit" id="button-addon2" onclick="dataLayer.push({
+									   event: 'pc_analytics', 
+										eventCategory: 'header-search-other', 
+										eventAction: 'click',});">検索</button>
+				</div>
+				<input type="hidden" name="target" value="art" class="input-hidden">
+				<input type="hidden" name="type" value="in" class="input-hidden">
+			</form>
+		</div>
+		<div id="header-menu" class="col-12 collapse" aria-labelledby="headerMenu"><p class="title p-0 m-0">MENU</p><ul class="menu-list first p-0 m-0"><li><a href="/"><img src="https://ures.jp/uta-net.com/img/sp/menu_icon_home.png" loading="lazy" decoding="async" width="34" height="30" alt="ホーム"><span>ホーム</span></a></li><li><a href="https://www.uta-net.com/movie/daily_ranking/"><img src="https://ures.jp/uta-net.com/img/sp/menu_icon_dougaplus.png" loading="lazy" decoding="async" width="48" height="32" alt="動画プラス"><span>動画プラス</span></a></li><li><a href="/myuta/"><img src="https://ures.jp/uta-net.com/img/sp/menu_icon_myuta_off.png" loading="lazy" decoding="async" width="34" height="34" alt="マイ歌ネット"><span>マイ歌ネット</span></a></li></ul><ul class="menu-list p-0 m-0"><li><a href="/search/history.php"><img src="https://ures.jp/uta-net.com/img/sp/menu_icon_history.png" loading="lazy" decoding="async" width="34" height="31" alt="歌詞閲覧履歴"><span>歌詞閲覧履歴</span></a></li><li><a href="https://www.uta-net.com/ranking/daily/"><img src="https://ures.jp/uta-net.com/img/sp/menu_icon_ranking.png" loading="lazy" decoding="async" width="35" height="28" alt="ランキング"><span>ランキング</span></a></li><li><a href="https://www.uta-net.com/song_info/"><img src="https://ures.jp/uta-net.com/img/sp/menu_icon_newsong.png" loading="lazy" decoding="async" width="35" height="35" alt="新曲歌詞情報"><span>新曲歌詞情報</span></a></li><li><a href="https://www.uta-net.com/today/"><img src="https://ures.jp/uta-net.com/img/sp/menu_icon_today.png" loading="lazy" decoding="async" width="35" height="35" alt="今日のうた"><span>今日のうた</span></a></li><li><a href="https://www.uta-net.com/news/"><img src="https://ures.jp/uta-net.com/img/sp/menu_icon_news.png" loading="lazy" decoding="async" width="35" height="35" alt="ニュース"><span>ニュース</span></a></li><li><a href="https://www.uta-net.com/livereport/"><img src="https://ures.jp/uta-net.com/img/sp/menu_icon_live.png" loading="lazy" decoding="async" width="35" height="34" alt="ライブレポート"><span>ライブレポート</span></a></li><li><a href="https://www.uta-net.com/watafure/ichiran/"><img src="https://ures.jp/uta-net.com/img/sp/menu_icon_kimochi.png" loading="lazy" decoding="async" width="35" height="30" alt="コトバのキモチ"><span>コトバのキモチ</span></a></li><li><a href="https://www.uta-net.com/user/tatsujin/index.html"><img src="https://ures.jp/uta-net.com/img/sp/menu_icon_tatsujin.png" loading="lazy" decoding="async" width="35" height="35" alt="言葉の達人"><span>言葉の達人</span></a></li><li><a href="https://www.uta-net.com/user/column/index.html"><img src="https://ures.jp/uta-net.com/img/sp/menu_icon_column.png" loading="lazy" decoding="async" width="28" height="32" alt="言葉の魔法"><span>言葉の魔法</span></a></li><li><a href="https://www.uta-net.com/user/pickup/index.html"><img src="https://ures.jp/uta-net.com/img/sp/menu_icon_pickup.png" loading="lazy" decoding="async" width="35" height="35" alt="歌ネットピックアップ"><span>ピックアップ</span></a></li><li><a href="https://www.uta-net.com/tv_program/music/"><img src="https://ures.jp/uta-net.com/img/sp/menu_icon_bangumi.png" loading="lazy" decoding="async" width="33" height="28" alt="音楽番組情報"><span>音楽番組情報</span></a></li><li><a href="https://www.uta-net.com/contact/"><img src="https://ures.jp/uta-net.com/img/sp/menu_icon_request.png" loading="lazy" decoding="async" width="35" height="24" alt="リクエスト"><span>リクエスト</span></a></li><li><a href="https://www.uta-net.com/streaming/"><img src="https://ures.jp/uta-net.com/img/sp/menu_icon_streaming.png" loading="lazy" decoding="async" width="35" height="35" alt="ストリーミング"><span>ストリーミング</span></a></li><li><a href="/anime/"><img src="https://ures.jp/uta-net.com/img/sp/menu_icon_anime.png" loading="lazy" decoding="async" width="35" height="35" alt="アニメ"><span>アニメ</span></a></li><li>&nbsp;</li></ul><ul class="sns_list p-2 m-0"><li><a href="https://twitter.com/share?url=https://www.uta-net.com&amp;text=歌ネット&hashtags=utanet" target="_blank"><img src="https://ures.jp/uta-net.com/img/sp/menu_icon_sns_twitter.png" loading="lazy" decoding="async" width="37" height="37" alt="twitter"></a></li><li><a href="https://www.facebook.com/share.php?u=https://www.uta-net.com" target="_blank"><img src="https://ures.jp/uta-net.com/img/sp/menu_icon_sns_facebook.png" loading="lazy" decoding="async" width="37" height="37" alt="facebook"></a></li><li><a href="https://line.naver.jp/R/msg/text/?https://www.uta-net.com" target="_blank"><img src="https://ures.jp/uta-net.com/img/sp/menu_icon_sns_line.png" loading="lazy" decoding="async" width="37" height="37" alt="line"></a></li></ul></div>
+	</div>
+</div>
+
+<!-- headerここまで -->
+
+
+<div id="not_found">
+
+	<h2>お探しのページは見つかりません。</h2>
+	<p class="sub_txt">404 Not Found</p>
+
+	<p class="sorry">
+		申し訳ございません。<br>
+		アクセスいただいたURLに該当するページは見つかりませんでした。<br>
+		お探しのページはアドレスが変更されたか削除された可能性があります。<br>
+		お手数ですが、ブラウザーバックからお戻りいただくか、メニューからお探しください。</p>
+
+</div>
+
+<div id="global-footer">
+	<div class="col p-0 d-none d-lg-block " id="pc-footer">
+		<div id="footer-to-top"><a href="#top" class="goTop"><span>TOP</span></a></div>
+		<div id="footer-map">
+			<div class="inner">
+				<ul>
+					<li><a href="https://www.uta-net.com/name_list/">アーティスト名インデックス</a></li>
+					<li><a href="https://www.uta-net.com/anime_list/">アニソン検索・索引</a></li>
+					<li><a href="https://www.uta-net.com/user/search_index/name.html">アルバム検索</a></li>
+					<li><a href="https://www.uta-net.com/search/all/">歌詞全文（フレーズ）検索</a></li>
+					<li><a href="https://www.uta-net.com/user/timemachine/index.html">タイムマシン検索</a></li>
+				</ul>
+				<ul>
+					<li><a href="https://www.uta-net.com/song_info/">新曲歌詞情報</a></li>
+					<li><a href="https://www.uta-net.com/user/newsong/release_top_2.html">新曲歌詞情報（演歌・歌謡曲）</a></li>
+					<li><a href="https://www.uta-net.com/anime/index.html">アニメ</a></li>
+					<li><a href="https://www.uta-net.com/streaming/">ストリーミング</a></li>
+					<li><a href="https://www.uta-net.com/contact/">リクエストフォーム</a></li>
+				</ul>
+				<ul>
+					<li><a href="https://www.uta-net.com/ranking/daily/">総合ランキング</a></li>
+					<li><a href="https://www.uta-net.com/ranking/enka_kayo_weekly/">演歌歌謡曲ランキング</a></li>
+					<li><a href="https://www.uta-net.com/ranking/karaoke_sogo/">カラオケランキング</a></li>
+					<li><a href="https://www.uta-net.com/ranking/total/">歴代人気曲ランキング</a></li>
+					<li><a href="https://www.uta-net.com/ranking/attention/">注目度ランキング</a></li>
+				</ul>
+				<ul>
+					<li><a href="https://www.uta-net.com/movie/">動画プラス</a></li>
+					<li><a href="https://www.uta-net.com/tv_program/music/">音楽番組情報</a></li>
+					<li><a href="https://www.uta-net.com/watafure/new/">コトバのキモチ（ワタフレ）</a></li>
+					<li><a href="https://www.uta-net.com/livereport/">ライブレポート</a></li>
+					<li><a href="https://www.uta-net.com/today/">今日のうた</a></li>
+				</ul>
+				<ul>
+					<li><a href="https://www.uta-net.com/news/">ニュース</a></li>
+					<li><a href="https://www.uta-net.com/user/close_up/index.html">特集ピックアップ</a></li>
+					<li><a href="https://www.uta-net.com/user/interview/index.html">インタビュー</a></li>
+					<li><a href="https://www.uta-net.com/user/column/index.html">言葉の魔法</a></li>
+					<li><a href="https://www.uta-net.com/user/tatsujin/index.html">言葉の達人</a></li>
+				</ul>
+			</div>
+		</div>
+		<div id="footer-bottom">
+
+			<div id="footer-links">
+				<ul>
+					<li><a href="https://www.pageone.co.jp/">運営会社</a></li>
+					<li><a href="https://www.pageone.co.jp/media/">メディア掲載情報</a></li>
+					<li><a href="https://www.uta-net.com/info/kiyaku.html">利用規約</a></li>
+					<li><a href="https://www.pageone.co.jp/privacy/" target="_blank">プライバシーポリシー</a></li>
+					<li><a href="https://www.uta-net.com/contact/">お問い合わせ・リクエスト</a></li>
+					<li><a href="https://www.uta-net.com/info/contents_info.html">コンテンツ</a></li>
+					<li><a href="http://www.pageone.co.jp/ad/ad_info.html" target="_blank">広告掲載</a></li>
+					<li><a href="https://www.uta-net.com/info/staff_index.html">スタッフ募集</a></li>
+				</ul>
+			</div>
+			<div id="footer-text">各ページに掲載されたジャケット画像、歌詞に関する著作権は、各レコード会社、アーティストなどに帰属します。</div>
+
+			<div id="footer-copy">
+				<p class="copyright">(C)2001 PAGE ONE All Rights Reserved.</p>
+			</div>
+		</div>
+	</div>
+	<div class="col p-0 d-block d-lg-none banner-padding" id="sp-footer">
+		<div>
+			<a href="#top" class="goTop"><span>TOP</span></a>
+		</div>
+		<div class="menu">
+			<p>MENU</p>
+			<ul class="row m-0">
+				<li class="col-4"><a href="/">ホーム</a></li>
+				<li class="col-4"><a href="/search/history.php">歌詞閲覧履歴</a></li>
+				<li class="col-4"><a href="/myuta/">マイ歌ネット</a></li>
+				<li class="col-4"><a href="https://www.uta-net.com/ranking/daily/">ランキング</a></li>
+				<li class="col-4"><a href="https://www.uta-net.com/today/">今日のうた</a></li>
+				<li class="col-4"><a href="https://www.uta-net.com/news/">ニュース</a></li>
+				<li class="col-4"><a href="https://www.uta-net.com/user/pickup/index.html">ピックアップ</a></li>
+				<li class="col-4"><a href="https://www.uta-net.com/watafure/ichiran/">コトバのキモチ</a></li>
+				<li class="col-4"><a href="https://www.uta-net.com/user/column/index.html">言葉の魔法</a></li>
+				<li class="col-4"><a href="https://www.uta-net.com/ranking/movie.php">動画プラス</a></li>
+				<li class="col-4"><a href="https://www.uta-net.com/livereport/">ライブレポート</a></li>
+				<li class="col-4"><a href="https://www.uta-net.com/user/tatsujin/index.html">言葉の達人</a></li>
+				<li class="col-4"><a href="https://www.uta-net.com/song_info/">新曲歌詞情報</a></li>
+				<li class="col-4"><a href="https://www.uta-net.com/streaming/">ストリーミング</a></li>
+				<li class="col-4"><a href="/anime/">アニメ</a></li>
+			</ul>
+		</div>
+		<div class="top-footer">
+			<ul class="row m-0">
+				<li class="col-4"><a href="https://www.pageone.co.jp/">運営会社</a></li>
+				<li class="col-4"><a href="https://www.pageone.co.jp/media/">メディア掲載情報</a></li>
+				<li class="col-4"><a href="https://www.uta-net.com/info/kiyaku.html">ご利用規約</a></li>
+				<li class="col-4"><a href="https://www.uta-net.com/contact/">お問い合わせ</a></li>
+				<li class="col-4"><a href="/static/help.php">検索ヘルプ</a></li>
+				<li class="col-4"><a href="https://www.pageone.co.jp/privacy/" target="_blank">プライバシーポリシー</a></li>
+			</ul>
+		</div>
+
+		<div class="copyright"><Nobr>(c)&nbsp;2022&nbsp;Copyright.&nbsp;PAGE ONE&nbsp;All&nbsp;Rights&nbsp;Reserved.</Nobr>()</div>
+	</div>
+</div>
+	
+
+</body>
+</html>
